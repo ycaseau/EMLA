@@ -1,0 +1,59 @@
+// +-------------------------------------------------------------------------+
+// |     EMLA (fin the previous README)                                      |
+// |     readme                                                              |
+// |     Copyright (C) Yves Caseau, 2012                                     |
+// +-------------------------------------------------------------------------+
+
+VERSION : V0.5   (move to CLAIRE4)
+
+1. Project Description 
+======================
+
+Evolutionary  ML Agents
+
+
+2. Version Description:  (a regarder sur PC)
+======================
+
+This is the first version, the goal is to be done in a month, to produce two slides
+for CSDM
+
+v0.2:
+- restart the experiment in 2014, to produce a test case about Free, and to produce new slides for Compiegne
+
+
+3. Installation:
+===============
+
+this is a standard module, look at init.cl in wk.
+
+	
+4. Claire files
+===============
+
+log.cl:            as usual, the log file => where to look firt to read about the current state
+model.cl           data model: companies, experiments & scenarios, initialization + utilities
+tseries.cl
+algebra.cl
+gauge.cl
+evol.cl
+	
+5. Related doc
+==============
+overall description may be found at http://organisationarchitecture.blogspot.com/
+
+6. Data
+=======
+
+This project uses scenario files (look at oai to use a similar approach)
+
+
+7.Test and run (merge with PC)
+==============
+
+As usual, the test file is test*.cl (currently test1.cl)
+The test file contains the configuration
+  - description of the companies
+  - definition of the experiments
+  - go* methods which simply run go(E)
+
